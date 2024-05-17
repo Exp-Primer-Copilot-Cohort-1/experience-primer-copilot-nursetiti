@@ -136,13 +136,3 @@ router.delete("/:id", (req, res) => {
  
 
 module.exports = router;
-
-Import the necessary modules in this file:
-Import express to create API routes
-Import uuid to generate ids for new users
-Import users to use user data
-router.get(‘/’): This route displays the users’ data in the API response
-router.get(‘/:id’): We define this route to search for a user’s data using their ID. It returns the data if found; otherwise, it sends an error message
-router.post(‘/’): This is a POST API request that enables us to add a user into the student management system
-router.put(‘/:id’): We define another API route that takes in the ID of a particular user, and then updates the data of that user if found; otherwise, it sends an error message
-router.delete(‘/:id’): Finally, create the last route for our Node.js application that takes in a 
