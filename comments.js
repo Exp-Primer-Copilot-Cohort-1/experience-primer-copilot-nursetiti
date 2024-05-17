@@ -1,8 +1,2 @@
-//create web serve 
-
-setInterval(() => {
-    
-}, interval);
-
-
+//create
 
